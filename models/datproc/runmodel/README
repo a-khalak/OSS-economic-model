@@ -1,0 +1,35 @@
+This file lists the parameters for the various studies:
+
+for code bank study:
+
+   constants:
+   scheme = 'equal price, comp quant, all raise';
+   number of users:   2500
+   number of companies: 10
+
+   span:
+   bpref and bran
+
+   cases:
+   A) Demand variables min_price=0.8, max_price=3.0
+   B) Demand variables min_price=0.3, max_price=3.0
+
+
+for size study:
+
+   constants:
+   scheme = 'equal price, comp quant, all raise';
+   min_price = 0.8
+   max_price = 0.3
+   
+   span:
+   N,M increase exponentially from N=100 to 5500
+
+   cases:
+   a) corporate costs scale (go down win incr. M to keep total const)
+   b) corporate costs are fixed
+   c) somewhat finer resolutions
+
+   1> 1% companies
+   5> 5% companies
+   10> 10% companies
